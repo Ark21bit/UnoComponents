@@ -5,9 +5,9 @@ export default defineNuxtConfig({
 	future: {
 		compatibilityVersion: 4,
 	},
-	css:['assets/css/main.css'],
-	experimental:{
-		typedPages:true
+	css: ['assets/css/main.css'],
+	experimental: {
+		typedPages: true,
 	},
 	modules: [
 		'@unocss/nuxt',
@@ -21,7 +21,7 @@ export default defineNuxtConfig({
 	],
 	eslint: {
 		config: {
-			stylistic: true
-		}
-	}
+			stylistic: true,
+		},
+	},
 })

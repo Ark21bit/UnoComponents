@@ -1,32 +1,32 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-	"lint": "eslint",
-    "lint:fix": "eslint --fix"
-  },
-  "dependencies": {
-    "@nuxt/fonts": "^0.11.4",
-    "nuxt": "^3.17.5",
-    "vue": "^3.5.17",
-    "vue-router": "^4.5.1"
-  },
-  "devDependencies": {
-    "@formkit/nuxt": "^1.6.9",
-    "@nuxt/eslint": "^1.4.1",
-    "@nuxt/icon": "^1.14.0",
-    "@nuxt/image": "^1.10.0",
-    "@nuxt/scripts": "^0.11.8",
-    "@unocss/nuxt": "^66.2.3",
-    "@vueuse/nuxt": "^13.4.0",
-    "@antfu/eslint-config": "^4.16.1",
-    "eslint": "^9.29.0",
-    "@unocss/eslint-plugin": "^66.2.3"
-  }
+	"name": "nuxt-app",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint",
+		"lint:fix": "eslint --fix"
+	},
+	"dependencies": {
+		"@nuxt/fonts": "^0.11.4",
+		"nuxt": "^3.17.5",
+		"vue": "^3.5.17",
+		"vue-router": "^4.5.1"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "^4.16.1",
+		"@formkit/nuxt": "^1.6.9",
+		"@nuxt/eslint": "^1.4.1",
+		"@nuxt/icon": "^1.14.0",
+		"@nuxt/image": "^1.10.0",
+		"@nuxt/scripts": "^0.11.8",
+		"@unocss/eslint-plugin": "^66.2.3",
+		"@unocss/nuxt": "^66.2.3",
+		"@vueuse/nuxt": "^13.4.0",
+		"eslint": "^9.29.0"
+	}
 }
