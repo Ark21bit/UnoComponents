@@ -5,4 +5,23 @@ export default defineNuxtConfig({
 	future: {
 		compatibilityVersion: 4,
 	},
+	css:['assets/css/main.css'],
+	experimental:{
+		typedPages:true
+	},
+	modules: [
+		'@unocss/nuxt',
+		'@vueuse/nuxt',
+		'@nuxt/image',
+		'@nuxt/eslint',
+		'@nuxt/icon',
+		'@nuxt/scripts',
+		'@formkit/nuxt',
+		'@nuxt/fonts',
+	],
+	eslint: {
+		config: {
+			stylistic: true
+		}
+	}
 })
