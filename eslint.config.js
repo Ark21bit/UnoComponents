@@ -15,5 +15,6 @@ export default antfu({
 				'style',
 			],
 		}],
+		'antfu/if-newline': 'off',
 	},
 })
